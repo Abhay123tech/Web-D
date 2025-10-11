@@ -1,0 +1,28 @@
+
+.text {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-image: url(mahadev.png);
+    background-color: #33538a3f;
+    color: orangered;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-decoration:double;
+    font-size: 50px;
+    font-weight: 1000;
+    mix-blend-mode: multiply; 
+    animation: spin 2s linear infinite;
+    animation-duration: 2s;
+}
+@keyframes spin{
+    0% {
+    transform: translate(0%);
+    }
+    to{
+    transform: translate(30%);
+    }
+}

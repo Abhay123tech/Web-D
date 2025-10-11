@@ -1,0 +1,43 @@
+/* grid model-> are three types
+1- Grid lined ke andar jo lines hoti hai ushe grid lines bolt hai
+,2-Grid cell ->grid lines ke ndar jo khali dabba hota hai
+3- Grid track space bettween two lines example # */
+
+/* Grid Template-> to define the lines and track sizing(row or column) */
+/* grid column-> define item starting and ending posaition inside a column */
+
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: blueviolet;
+    display: inline grid;
+    grid-template-rows: 50px 50px 50px 50px 5;
+    grid-template-columns: 100px 100px 100px
+    /* row-gap 10px;
+    column-gap: 20px; */
+} 
+
+.item {
+    width: 100px;
+    height: 100px; 
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.one{
+    /* justify-self: end;
+    align-self: center; */
+    place-self: center;
+}
+
+.one {
+/* grid-column-start: 1;
+grid-column-end: 4; */
+/* grid-column: 1/4; */
+/* grid-column: span 2; */
+}
+
+.two {
+    /* grid-row: 1/ span 3; */
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        .calculator-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        }
+
+        .calculator {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 15px;
+        background-color: #f8f9fa;
+        width: 220px;
+        }
+
+        #number-input,
+        #result {
+        width: 100%;
+        text-align: right;
+        padding: 8px;
+        margin-bottom: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        }
+
+        .cal-buttons {
+        text-align: center;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin: 2px;
+        padding: 10px 0;
+        user-select: none;
+        }
+
+        .cal-buttons:hover {
+        background-color: tomato;
+        color: white;
+        }
+    </style>
+    </head>
+
+    <body>
+    <div class="calculator-container">
+        <div class="calculator">
+        <input type="text" id="number-input" readonly />
+        <input placeholder="ANS" type="text" id="result" readonly />
+
+        <div class="buttons">
+            <div class="row">
+            <div onclick="handleClickButton(this)" class="col cal-buttons">+</div>
+            <div onclick="handleClickButton(this)" class="col cal-buttons">-</div>
+            <div onclick="handleClickButton(this)" class="col cal-buttons">*</div>
+            <div onclick="handleClickButton(this)" class="col cal-buttons">/</div>
+            </div>
+
+            <div class="row">
+            <div onclick="handleClickButton(this)" class="col cal-buttons">7</div>
+            <div onclick="handleClickButton(this)" class="col cal-buttons">8</div>
+            <div onclick="handleClickButton(this)" class="col cal-buttons">9</div>
+            </div>
+
+            <div class="row">
+            <div onclick="handleClickButton(this)" class="col cal-buttons">4</div>
+            <div onclick="handleClickButton(this)" class="col cal-buttons">5</div>
+            <div onclick="handleClickButton(this)" class="col cal-buttons">6</div>
+            </div>
+
+            <div class="row">
+            <div onclick="handleClickButton(this)" class="col cal-buttons">1</div>
+            <div onclick="handleClickButton(this)" class="col cal-buttons">2</div>
+            <div onclick="handleClickButton(this)" class="col cal-buttons">3</div>
+            </div>
+
+            <div class="row">
+            <div onclick="handleClickButton(this)" class="col cal-buttons">0</div>
+            <div onclick="reset()" class="col cal-buttons">Clear</div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- ✅ Correct JS -->
+    <script>
+        const input = document.getElementById("number-input");
+        const result = document.getElementById("result");
+
+        function handleClickButton(el) {
+        const exp = input.value + el.innerText;
+        input.value = exp;
+
+        // only calculate when not operator
+        if (["+", "-", "*", "/"].includes(el.innerText)) return;
+
+        try {
+            result.value = eval(exp);
+        } catch (err) {
+            result.value = "";
+        }
+        }
+
+        function reset() {
+        input.value = "";
+        result.value = "";
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,62 @@
+Abhay Jaiswal
+Software Developer
+
+Sonbhadra
+6387227514
+
+A highly motivated and skilled software developer with expertise in front-end and back-end technologies. Adept at building responsive websites and applications with HTML, CSS, JavaScript, and Bootstrap, while also proficient in Java, Python, and C programming. Seeking an opportunity to leverage my technical skills in a dynamic development environment.
+
+
+PERSONAL INFORMATION
+  Address: , Sonbhadra, 
+  Nationality: 
+  Driving License: 
+  Hobbies: 
+
+SOCIAL PROFILES
+  * Linkedin: https://www.linkedin.com/in/abhay-jaiswal-b79112258
+  * : 
+
+SKILLS
+  ★★★★★ C++
+  ★★★★★ HTML &amp; CSS
+  ★★★★★ JavaScript
+  ★★★★★ SQL
+  ★★★★★ Python
+  ★★★★★ Java
+
+EDUCATION
+  * 
+    ,  
+
+    Shri Ramswaroop Memorial College of Engineering and Management — B.Tech [Degree]
+2022 – 2026
+
+Percentage (till 4th Semester): 72.23%
+Relevant Coursework: Web Development, Data Structures, Algorithms, Object-Oriented Programming, Database Management
+DAV Public School — 12th Grade
+2019 – 2021
+
+Percentage: 74.8%
+DAV Public School — 10th Grade
+2019
+
+Percentage: 69.8%
+
+
+INTERNSHIPS
+  * 
+     at , 
+
+    Software Developer Intern IBM Cloud (1 Month Internship)
+Data analytics intern IBM (1 month internship)
+
+
+PROJECTS
+  * , , 
+
+    Simon Says Game
+Tic Tok Toe
+Myntra clone
+Stone Paper Scissor game
+Flappy Bird Game

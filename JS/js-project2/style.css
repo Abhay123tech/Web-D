@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    height: 60px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    list-style-type: disc;
+}
+
+.gameContainer{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    margin: 50;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 9vw);
+    grid-template-columns: repeat(3, 9vw);
+    font-family: 'Roboto', sans-serif;
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    /* background-color: rgb(85, 21, 145); */
+}
+
+.gameInfo{
+    padding: 0 34px;
+    font-family: 'Ballo Bhaina 2' , cursive ;
+}
+
+.imgbox img{
+    display: none;
+}
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{     /*bl means border left*/
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{          /*bb means border bottom*/
+    border-bottom: 0;
+}

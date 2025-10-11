@@ -1,0 +1,106 @@
+h3 {
+    background-color: antiquewhite !important;
+}
+/* selector */
+*{
+    font-family: 'Courier New';
+}
+h1,h3{
+    color: #b92b27;
+}
+#login {
+    background-color: #ffffff;
+}
+#signup {
+    background-color: #b92b27;
+    color: white; 
+}
+.upvote{
+    background-color: #008000;
+    color:#280505;
+}
+/* descendent selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a{
+    color: red ;
+}
+p {
+    color: orangered;
+}
+a{
+    color: black;
+    background: lightgreen;
+}
+/* combinator */
+p + h3 {
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color:cornflowerblue;
+}
+/* child combinator */
+div > input {
+    background-color: darkgrey;
+}
+/* attribute selector */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+#myId p{
+    color: green;
+}
+ /* pseudo class 1_hover,2_active,3_checked,4_nth-of-type */
+button:hover{
+    background-color: #280505;
+    color: #ffffff;
+}
+h3:hover{
+    text-decoration: overline;
+}
+button:active {
+background-color: hotpink;
+color: #280505;
+}
+p:active {
+font-weight: bold;
+color: #008000;
+}
+input[type="radio"]:checked + label {
+color: red;
+font-weight: bold;
+}
+div:nth-of-type(2n) {
+    background-color:pink;
+}
+/* pseudo element denoted by :: ,apply on specific part eg first letter */
+h1::first-letter{
+color: #008000;
+}
+p::first-line{
+    color: black;
+}
+p::selection{
+    background-color: lightyellow;
+}
+/* casecading  jo cheej bad me aati hi wo apply hota hai*/
+h3{
+    background-color: red; 
+}
+h3{
+    background-color: lightsalmon;
+}
+/* specificity id > class,attribute,pseudo -class > elaments &pseudo elements */
+/* more selector is > less selector
+if specificity same then casecading property apply */
+
+/* inheritence ->take color from her upper div ,paregraph, to un order
+list step by step itself*/ 

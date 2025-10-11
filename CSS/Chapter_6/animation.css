@@ -1,0 +1,56 @@
+/* Animation->convert on form to another form in different state */
+
+.box {
+height: 100px;
+width: 300px;
+background-color: pink;
+/* animation-name: widthanimate;
+animation-duration: 3s;
+animation-timing-function: ease-in;
+animation-delay: 0s;
+animation-iteration-count: 3;
+animation-direction: normal; */
+animation: colanimate 3s ease-in 0s infinite normal;
+}
+
+@keyframes colanimate{
+    0%{
+        background-color: green; 
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+
+@keyframes widthanimate{
+    from{
+        width: 10px;
+        background-color: green;
+        border-radius: 15px;
+    }
+    to{
+        width: 400px;
+        background-color: blue;
+    }
+}
+
+@keyframes fontanimation{
+    from{
+        font-size: 20p;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+
+@keyframes coloranimate {
+    form{
+        background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+}

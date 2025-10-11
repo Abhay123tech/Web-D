@@ -1,0 +1,87 @@
+/* h2 {
+    display: inline;
+    background-color: palevioletred;
+}
+
+span {
+    display: block;
+    background-color: yellow;
+} */
+
+
+/* span{
+    background-color: blue;
+    border: 50px solid palevioletred;
+    height: 100px;
+    padding: 20;
+    margin: 10;
+}
+div{
+    background-color: blue;
+    border: 50px solid palevioletred;
+    height: 50px;
+    padding: 50;
+    margin: 50;
+} */
+
+/* div{
+    height:100px ;
+    width: 100px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: greenyellow;
+    display: inline-block;
+}
+#third{
+    display:none ;
+} */
+
+/*  use of percentage */
+/* h1{
+    border: 2px solid black;
+    width: 50%;
+}
+#outer{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    margin: 50%;
+}
+#inner{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    margin: 20px;
+} */
+
+/* use of EM */
+/* #outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: pink;
+    font-size: 10px;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 3em;
+    padding: 1em;
+}
+
+button{
+    font-size: 50px;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+} */
+/* section{
+    font-size: 25px;
+} */
+div{
+    font-size: 2rem;
+}

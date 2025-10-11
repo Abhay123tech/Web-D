@@ -1,0 +1,21 @@
+/* element ko outer ke taraf dikhene ke liye box shadow ka use kiya jata hai */
+/* div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px yellow;
+} */
+
+
+/* for background image */
+div{
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("image.jpeg");
+    background-size: contain;
+}
