@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>All Chats</title>
+  </head>
+  <body>
+    <h1>All Chats</h1>
+    <ul>
+      <% allChats.forEach(chat => { %>
+        <li>
+          <strong><%= chat.from %></strong> → <%= chat.to %> : 
+          <%= chat.message %> <em>(<%= chat.created_at.toLocaleString() %>)</em>
+        </li>
+      <% }) %>
+    </ul>
+  </body>
+</html>
